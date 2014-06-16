@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+    <!-- record id="view_partner_filter_inh" model="ir.ui.view">
+        <field name="name">Partners - Search</field>
+        <field name="model">res.partner</field>
+	<field name="inherit_id" ref="base.view_res_partner_filter" />
+        <field name="arch" type="xml">
+                <xpath expr="//filter[@string='Country']" position="after">
+			<separator />
+                        <filter string='Region' icon="terp-mrp" domain="[]" context="{'group_by' : 'region'}"/>
+                        <filter string='Ciudad' icon="terp-mrp" domain="[]" context="{'group_by' : 'city'}"/>
+                </xpath>
+                <xpath expr="//filter[@string='Suppliers']" position="after">
+        	        <filter string="Saldo Pendiente" icon="terp-camera_test"  domain="[('credit','>',0)]"
+				 help = "Clientes con saldo deudor" />
+                </xpath>
+        </field>
+    </record -->
+
+
+	<record model="ir.ui.view" id="partner_weblot_form_view">
+	    <field name="name">res.partner.weblot.form.inherit</field>
+	    <field name="model">res.partner</field>
+	    <field name="inherit_id" ref="base.view_partner_form"/>
+	    <field name="arch" type="xml">
+	        <data>
+			<notebook>
+				<page string="e-Lote">
+				   <group colspan="2">
+					<field name="production_center" /> 
+				   </group>
+				</page>
+			</notebook>
+			<!-- field name="function" position="after">
+				<group>
+					<field name="document_type_id" />
+					<field name="document_number" />
+				</group>
+			</field -->
+		</data>
+	    </field>
+	</record>
+
+    </data>
+</openerp>
