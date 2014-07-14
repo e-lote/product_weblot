@@ -138,7 +138,7 @@
             <field name="view_id" ref="familias_tree_view"/>
         </record>
 
-        <menuitem id="menu_sba_familia_id" name="Familias" parent="base.menu_product" sequence="5" action="action_familias_form" / -->
+        <menuitem id="menu_sba_familia_id" name="Familias" parent="purchase.menu_procurement_management_product" sequence="5" action="action_familias_form" / -->
 	
 	<!-- CATEGORIAS -->
         <record id="categorias_tree_view" model="ir.ui.view">
@@ -175,7 +175,7 @@
             <field name="view_id" ref="categorias_tree_view"/>
         </record>
 
-        <menuitem id="menu_sba_categoria_id" name="UBS Category" parent="base.menu_product" sequence="5" action="action_categorias_form" />
+        <menuitem id="menu_sba_categoria_id" name="UBS Category" parent="purchase.menu_procurement_management_product" sequence="5" action="action_categorias_form" />
 
 	<!-- VERSION -->
         <record id="version_tree_view" model="ir.ui.view">
@@ -212,7 +212,7 @@
             <field name="view_id" ref="version_tree_view"/>
         </record>
 
-        <menuitem id="menu_sba_version_id" name="Version" parent="base.menu_product" sequence="5" action="action_version_form" />
+        <menuitem id="menu_sba_version_id" name="Version" parent="purchase.menu_procurement_management_product" sequence="5" action="action_version_form" />
 
 	<!-- SUBCATEGORIA -->
         <record id="subcategoria_tree_view" model="ir.ui.view">
@@ -249,7 +249,7 @@
             <field name="view_id" ref="subcategoria_tree_view"/>
         </record>
 
-        <menuitem id="menu_sba_subcategoria_id" name="UBS Subcategory" parent="base.menu_product" sequence="5" action="action_subcategoria_form" />
+        <menuitem id="menu_sba_subcategoria_id" name="UBS Subcategory" parent="purchase.menu_procurement_management_product" sequence="5" action="action_subcategoria_form" />
 
 	<!-- LANGUAGE -->
         <record id="language_tree_view" model="ir.ui.view">
@@ -286,7 +286,7 @@
             <field name="view_id" ref="language_tree_view"/>
         </record>
 
-        <menuitem id="menu_sba_language_id" name="Language" parent="base.menu_product" sequence="6" action="action_language_form" />
+        <menuitem id="menu_sba_language_id" name="Language" parent="purchase.menu_procurement_management_product" sequence="6" action="action_language_form" />
 
 	<!-- ENDSHEETS -->
         <record id="endsheets_tree_view" model="ir.ui.view">
@@ -323,7 +323,7 @@
             <field name="view_id" ref="endsheets_tree_view"/>
         </record>
 
-        <menuitem id="menu_product_endsheet_id" name="Endsheets" parent="base.menu_product" sequence="6" action="action_endsheet_form" />
+        <menuitem id="menu_product_endsheet_id" name="Endsheets" parent="purchase.menu_procurement_management_product" sequence="6" action="action_endsheet_form" />
        
 	<!-- WEIGHT GSM PP -->
         <record id="weightgsmpp_tree_view" model="ir.ui.view">
@@ -360,7 +360,7 @@
             <field name="view_id" ref="weightgsmpp_tree_view"/>
         </record>
 
-        <menuitem id="menu_product_weightgsmpp_id" name="Weight GSMPP" parent="base.menu_product" sequence="6" action="action_weightgsmpp_form" />
+        <menuitem id="menu_product_weightgsmpp_id" name="Weight GSMPP" parent="purchase.menu_procurement_management_product" sequence="6" action="action_weightgsmpp_form" />
        
 	<!-- RIBBONS -->
         <record id="ribbons_tree_view" model="ir.ui.view">
@@ -397,7 +397,7 @@
             <field name="view_id" ref="ribbons_tree_view"/>
         </record>
 
-        <menuitem id="menu_product_ribbons_id" name="Ribbons" parent="base.menu_product" sequence="6" action="action_ribbons_form" />
+        <menuitem id="menu_product_ribbons_id" name="Ribbons" parent="purchase.menu_procurement_management_product" sequence="6" action="action_ribbons_form" />
 
 	<!-- EDGE -->
         <record id="edge_tree_view" model="ir.ui.view">
@@ -434,7 +434,7 @@
             <field name="view_id" ref="edge_tree_view"/>
         </record>
 
-        <menuitem id="menu_product_edge_id" name="Edge" parent="base.menu_product" sequence="6" action="action_edge_form" />
+        <menuitem id="menu_product_edge_id" name="Edge" parent="purchase.menu_procurement_management_product" sequence="6" action="action_edge_form" />
 
 	<!-- SIZE -->
         <record id="size_tree_view" model="ir.ui.view">
@@ -471,7 +471,7 @@
             <field name="view_id" ref="size_tree_view"/>
         </record>
 
-        <menuitem id="menu_product_size_id" name="Size" parent="base.menu_product" sequence="6" action="action_size_form" />
+        <menuitem id="menu_product_size_id" name="Size" parent="purchase.menu_procurement_management_product" sequence="6" action="action_size_form" />
 
 	<!-- COLOUR -->
         <record id="colour_tree_view" model="ir.ui.view">
@@ -508,7 +508,7 @@
             <field name="view_id" ref="colour_tree_view"/>
         </record>
 
-        <menuitem id="menu_product_colour_id" name="Colour" parent="base.menu_product" sequence="6" action="action_colour_form" />
+        <menuitem id="menu_product_colour_id" name="Colour" parent="purchase.menu_procurement_management_product" sequence="6" action="action_colour_form" />
 
 	<!-- BINDING -->
         <record id="binding_tree_view" model="ir.ui.view">
@@ -545,7 +545,7 @@
             <field name="view_id" ref="binding_tree_view"/>
         </record>
 
-        <menuitem id="menu_product_binding_id" name="Binding" parent="base.menu_product" sequence="6" action="action_binding_form" />
+        <menuitem id="menu_product_binding_id" name="Binding" parent="purchase.menu_procurement_management_product" sequence="6" action="action_binding_form" />
 	<!-- PUBLISHING BS -->
         <record id="publishing_bs_tree_view" model="ir.ui.view">
             <field name="name">product.publishing_bs.treeview</field>
@@ -581,7 +581,7 @@
             <field name="view_id" ref="publishing_bs_tree_view"/>
         </record>
 
-        <menuitem id="menu_product_publishing_bs_id" name="Publishing BS" parent="base.menu_product" sequence="6" action="action_publishing_bs_form" />
+        <menuitem id="menu_product_publishing_bs_id" name="Publishing BS" parent="purchase.menu_procurement_management_product" sequence="6" action="action_publishing_bs_form" />
 	<!-- COLOUR PAGES -->
         <record id="colour_pages_tree_view" model="ir.ui.view">
             <field name="name">product.colour_pages.treeview</field>
@@ -616,7 +616,7 @@
             <field name="view_mode">tree,form</field>
             <field name="view_id" ref="colour_pages_tree_view"/>
         </record>
-        <menuitem id="menu_product_colour_pages_id" name="Colour Pages" parent="base.menu_product" sequence="6" action="action_colour_pages_form" />
+        <menuitem id="menu_product_colour_pages_id" name="Colour Pages" parent="purchase.menu_procurement_management_product" sequence="6" action="action_colour_pages_form" />
 	
 	<!-- COLOUR PAGES -->
         <record id="paper_colour_tree_view" model="ir.ui.view">
@@ -652,7 +652,7 @@
             <field name="view_mode">tree,form</field>
             <field name="view_id" ref="paper_colour_tree_view"/>
         </record>
-        <menuitem id="menu_product_paper_colour_id" name="Paper Colour" parent="base.menu_product" sequence="6" action="action_paper_colour_form" />
+        <menuitem id="menu_product_paper_colour_id" name="Paper Colour" parent="purchase.menu_procurement_management_product" sequence="6" action="action_paper_colour_form" />
 
 
 
